@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./back.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 110vh;
+}
+
+.navbar {
+    width: 1200px;
+    height: 80px;
+    margin: auto;
+   
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 170px;
+}
+
+.icon img {
+    padding: 10px;
+    margin: -20px;
+}
+
+.logo {
+    color: rgb(237, 248, 248);
+    font-size: 36px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+}
+
+.menu {
+    width: 400px;
+    float: left;
+    height: 80px;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 70px;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: rgb(143, 133, 42);
+}
+
+.search {
+    width: 300px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch {
+    font-family: 'Times New Roman', serif;
+    width: 200px;
+    height: 45px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn {
+    width: 96px;
+    height: 45px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 15px;
+    color: aliceblue;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus {
+    outline: none;
+
+}
+
+.srch:focus {
+    outline: none;
+
+}
+
+.content {
+    justify-content: left;
+    align-items: left;
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: rgb(241, 236, 226);
+    position: relative;
+
+}
+
+.content p {
+    float: left;
+    padding-left: 1px;
+    padding-bottom: 25px;
+    padding-top: 45px;
+    margin-left: 2px;
+    font-size: 23px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+.content h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 80px;
+    padding-left: 10px;
+    margin-left: 10px;
+    letter-spacing: 2px;
+}
+
+.content .cn {
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .4s ease;
+
+}
+
+.content .cn a {
+    text-decoration: none;
+    color: white;
+    transition: .3s ease;
+}
+
+.cn:hover {
+    background-color: rgb(37, 33, 28);
+    color: #2e1010;
+}
+
+.form {
+    width: 250px;
+    height: 380px;
+    background: black;
+    border-radius: 20px;
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    padding: 80px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.form h2 {
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 2px;
+    padding: 9px;
+}
+
+.form input {
+    width: 240px;
+    height: 34px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus {
+    outline: none;
+
+}
+
+::placeholder {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.btnn {
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease;
+}
+
+.btnn:hover {
+    background: white;
+    color: #ff7200;
+
+}
+
+.btnn a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+
+}
+
+.form .link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.form .link a {
+    text-decoration: none;
+    color: #ff7200;
+}
+
+.lib {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
